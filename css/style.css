@@ -1,0 +1,98 @@
+/* Custom Stylesheet */
+
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header, Section and Footer Container Styles */
+  .container {
+    max-width: 1170px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  /* Showcase Styles */
+  .showcase {
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .showcase img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Project Overview */
+  .overview h2 {
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  /* List Styles */
+  ul.list-unstyled {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  ul.list-unstyled li {
+    padding: 5px 0;
+  }
+  
+  /* User Engagement Section */
+  .user-engagement {
+    background-color: #e9ecef;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .user-engagement img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Conceptual Design Section */
+  .conceptual-design img {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Responsive Grid for Prototypes */
+  .prototype-section .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .prototype-section img {
+    flex: 1;
+    max-width: calc(50% - 10px);
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .prototype-section img {
+      max-width: 100%;
+    }
+  }  
